@@ -8,6 +8,6 @@ sudo apt update
 sudo apt install ruby-full -y
 sudo apt install wget
 cd /home/ubuntu
-wget https://aws-codedeploy-ap-south-1.s3.ap-south-1.amazonaws.com/latest/install
+wget https://aws-codedeploy-us-west-2.s3.us-west-2.amazonaws.com/latest/install
 chmod +x ./install
 sudo ./install auto
