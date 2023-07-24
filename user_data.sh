@@ -2,7 +2,8 @@
 sudo su
 apt update
 apt upgrade -y
-apt install nginx -y
+sudo apt install apache2 -y
+sudo ufw allow 'Apache'
 sudo apt update
 sudo apt install ruby-full -y
 sudo apt install wget
